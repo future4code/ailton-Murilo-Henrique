@@ -1,0 +1,11 @@
+Comidas Favoritas:
+1. Comida Japonesa
+2. Churrasco
+3. Lasanha
+4. Hamburguer
+5. Pizza
+6. Salgado
+7. Frango a Parmegiana
+8. Strogonoff
+9. Feijoada
+10. Tapioca
