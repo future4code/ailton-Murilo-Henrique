@@ -46,10 +46,10 @@
 
 // function apresentacaoParametros (nome, idade, endereco, profissao){
 
-
-// }
 // console.log(`Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}`)
 
+// }
+// apresentacaoParametros(nome, idade, endereco, profissao)
 
 //  2.a
 
