@@ -38,12 +38,23 @@ function retornaNumerosPares(array) {
         return (item % 2 === 0);
         }
     let numerosPares = array.filter(pares);
+
 return numerosPares
     }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
 
+    let pares = function(item) {
+        return (item % 2 === 0);
+      
+        }
+    let numerosPares = array.filter(pares);
+
+    let resultado = numerosPares.map(function (b) {
+        return b**2
+    })
+    return resultado    
 }
 
 // EXERCÍCIO 06
