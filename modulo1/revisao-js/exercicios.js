@@ -12,7 +12,13 @@ return array.length
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
- 
+
+    let arrayInvertido = array.map((item, indice, array) => {
+        return array[array.length - indice - 1];
+    })
+
+    // return array.reverse()
+    return arrayInvertido
 
 }
 
