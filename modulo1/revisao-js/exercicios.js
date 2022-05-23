@@ -59,7 +59,10 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+    for (let i = 0; i < array.length; i++){
+        var max = Math.max(...array);
+        return max
+    }
 }
 
 // EXERCÍCIO 07
