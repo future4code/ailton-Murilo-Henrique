@@ -116,7 +116,7 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+   
 }
 
 // EXERCÍCIO 11
@@ -131,9 +131,8 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+ 
 }
-
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
   
@@ -141,7 +140,19 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
+    let mercado = contas.map((nomeCliente) => {
+        for(let compras of nomeCliente.compras){
+            nomeCliente.saldoTotal = nomeCliente.saldoTotal - compras;
+        }
+    
+    return {...nomeCliente,
+        saldoTotal: nomeCliente.saldoTotal,
+        compras: []
 
+    }
+
+})
+return mercado
 }
 
 // EXERCÍCIO 15A
