@@ -1,0 +1,60 @@
+.titulo-loja {
+    font-size: 60px;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+   color: yellow;
+   text-align: left;
+   text-shadow:10px 10px 15px yellow;
+   }
+
+.sub-titulo-loja{
+    font-size: 40px;
+}
+.texto-logos{
+    font-size: 20px;
+
+}
+.logo-imagem{
+    max-width:100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+   nav{
+    font-size: 30px;
+    text-shadow:0px 0px 15px rgb(0, 0, 0);
+   }
+
+button{
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+h2{
+
+    font-size: 25px;
+
+}
+form{
+    font-size: 20px;
+
+}
+
+.produtos{
+    font-size: 20px;
+}
+
+.imagens-produtos{
+    max-width:100px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+.lista-funcionarios{
+    text-decoration: underline;
+    font-size: 20px;
+}
