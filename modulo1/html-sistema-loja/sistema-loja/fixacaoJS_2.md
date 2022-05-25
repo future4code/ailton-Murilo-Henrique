@@ -10,4 +10,5 @@ function calculaPrecoTotal(quantidade) {
  
 return precoMaca*quantidade
 }
+
 ```
