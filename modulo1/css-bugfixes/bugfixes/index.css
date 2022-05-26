@@ -122,6 +122,14 @@ td button {
     text-align: center;
     font-size: larger;
 }
+td button:hover{
+    background-color: orange;
+    color: white;
+}
+td button:active{
+    background-color: green;
+    color: gold;
+}
 
 .container-do-search {
     margin-top: 20px;
@@ -140,7 +148,12 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: orange;
+}
+
+#back-button:active{
+    background-color: blue;
+    color: yellow;
 }
 
 .texto-comprar{
