@@ -82,6 +82,7 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    padding-top: 100px;
 }
 
 #container-para-comprar>p {
@@ -112,6 +113,10 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
 }
 
 .container-do-search {
@@ -132,4 +137,12 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+
+.texto-comprar{
+    margin-left: 500px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
 }
