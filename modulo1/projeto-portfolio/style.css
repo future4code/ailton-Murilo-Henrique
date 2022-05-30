@@ -1,0 +1,198 @@
+/* CSS INDEX  */
+
+.corpo{
+    background-color: white;
+
+}
+
+.titulo-portfolio{
+   font-size: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   color: rgb(0, 152, 253);
+   text-shadow: 1px 1px black;
+}
+
+.sub-titulo-portfolio{
+  font-size: 35px;  
+  text-align: center;
+  font-style: italic;
+}
+
+.corpo-texto-index{
+    margin-left: 15px;
+}
+
+.contato-incial{
+    text-align: right;
+    margin-right: 15px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+   
+}
+
+.formacao{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 152, 253);
+    text-shadow: 1px 1px black;
+    
+}
+
+.formacao-texto{
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projetos{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    color: rgb(0, 152, 253);
+    text-shadow: 1px 1px black;
+}
+
+.aviso-link{
+    margin-top: -45px;
+    margin-left: 125px;
+}
+
+.projetos-texto{
+    font-size: 20px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.habilidades{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+    color: rgb(0, 152, 253);
+    text-shadow: 1px 1px black;
+
+} 
+    .habilidades-texto{
+        font-size: 20px;
+        margin-top: -20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+/* CSS PROJETOS  */
+
+.projetos-intro{
+    font-size: 35px;  
+    text-align: left;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+.titulo-projetos{
+
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(0, 152, 253);
+    text-shadow: 1px 1px black;
+     margin-left: 10px;
+     margin-top: -5px;
+}
+
+.atalho-projetos{
+
+    text-align: right;
+    margin-right: 15px;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+
+}
+
+.projeto-titulo{
+
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.imagens-projeto{
+
+    margin-left: 10px;
+}
+
+/* CSS CONTATO  */
+
+
+.titulo-contato{
+
+    font-size: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: left;
+   color: rgb(0, 152, 253);
+   text-shadow: 1px 1px black;
+    margin-left: 10px;
+    margin-top: -5px;
+
+}
+
+.atalho-contato{
+
+    text-align: right;
+    margin-right: 15px;
+    margin-top: -100px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+
+}
+
+.contato-intro{
+    font-size: 35px;  
+    text-align: left;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#texto{
+    width: 300px;
+   height: 100px;
+   margin-left: 17px;
+}
+
+#nome{
+    width: 300px;
+    margin-left: 12px;
+}
+
+#email{
+    width: 300px;
+    margin-left: 4px;
+}
+
+.texto-contato{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -40px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.texto-logos{
+   
+    font-size: 35px;  
+    text-align: left;
+    font-style: italic;
+    margin-left: 10px;
+
+}
+
+.imagens-contato{
+width: 150px;
+height: 150px;
+margin-left: 10px;
+}
