@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: mediumvioletred;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 8vh;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+   
+}
+
+.botao-login{
+    
+margin-left:1620px;
+display: flex;
+align-items: center;
+
+}
+
+.imagem-bolinho{
+    height: 30px;
+    width: 30px;
+}
+
+.section1{
+
+background-color: #f2d0e0;
+display: flex;
+align-items: left;
+flex-direction: row;
+width: 100vw;
+height: 830px;
+
+}
+
+.barra1{
+
+display: flex;
+justify-content: flex-start;
+gap: 10px;
+padding: 10px;
+width: 15vw;
+
+}
+
+.imagem-seta{
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;    
+    display: flex;
+    margin-left: 120px;
+}
+
+.imagem-seta1{
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;    
+    display: flex;
+    margin-left: 150px;
+}
+
+.imagem-seta2{
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;    
+    display: flex;
+    margin-left: 158px;
+}
+
+
+.imagem-barra{
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    background-color: mediumvioletred;
+    height: 5vh;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.barra{
+
+    background-color: #f2d0e0;
+    width: 16vw;
+}
+
+.section2{
+
+display: flex;
+
+}
+
+.primeiro-bolo{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    border: 1px solid darkgray;
+    justify-content: row;
+    align-items: flex-start;
+    max-height: 45vh;
+    padding: 5px;
+}
+
+.area-bolo{
+    background-color: #ffffff;
+    width: 84vw;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: row;  
+    border: 1px solid darkgray; 
+}
+
+
+.bolo-foto{
+    height: 300px;
+    width: 300px;  
+}
+
+.bolo1{
+  
+}
