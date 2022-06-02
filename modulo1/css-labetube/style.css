@@ -1,44 +1,53 @@
 *{
     margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+body{
+
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column ;
 
 }
 
 header{
-    display: grid;
-    height: 10vh;
-    width: 98.48vw;
     background-color: chocolate;
-    grid-template-columns: 4fr 1fr;
-    align-items: center;
-    padding: 15px;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-
-}
-
-.busca{
+    width: 97%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
+    padding-right: 1%;
+    padding-left: 2%;
+    height: 10vh;
 }
 
 input{
-   height: 40px;
-   font-size: 15px;
-   width: 150px;
+    height: 30px;
 }
 
-.main-principal{
+main{
+        background-color: white;
+        width: 100%;
+        height: 84vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
     align-items: center;
-    text-align: left;
-    gap: 15px;
-    margin-top: 20px;
-    justify-items: stretch;
-    
+    row-gap: 25px;
+    column-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      
+}
+
+footer{
+    background-color: rgb(50, 59, 62);
+    width: 100%;
+    height: 6vh;
+    color: white;    
 }
 
 .video{
@@ -54,39 +63,25 @@ input{
     height: 250px;
     width: 400px;
     border-radius: 8px;
-    margin: 25px;
-   
+    margin: 25px; 
 }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+        main {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        }
+      .video {
+      width: 300px;
+      }
+       
 footer{
-    background: rgb(50, 59, 62);
-    width: 99vw;
-    height: 100px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    justify-content: left;
-    padding-left: 20px;
-    color: white;
 }
 
-.video2{
-    height: 600px;
-    width: 2000px;
-    padding: 10px;
-    
-}
-
-.main-video{
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-
-}
-
+      }
 
