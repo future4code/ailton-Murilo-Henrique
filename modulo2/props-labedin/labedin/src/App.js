@@ -12,6 +12,7 @@ import CardPequeno from './components/CardPequeno/CardPequeno';
 import {DivButton} from './components/ImagemButton/ImagemButton'
 
 
+
 function App() {
   return (
     <div className="App">
@@ -63,14 +64,10 @@ function App() {
 
       <div className="page-section-container">
         <h2>Minhas redes sociais</h2>
+       
         
         <DivButton>
-        <ImagemButton 
-          Imagem="https://www.pngmart.com/files/21/Instagram-Logo-PNG-File.png"
-          texto="Instagram" 
-          link= "https://www.instagram.com/murilo_k1/" 
-        />        
-
+           
         <ImagemButton 
           imagem="https://e7.pngegg.com/pngimages/778/732/png-clipart-logo-linkedin-computer-icons-facebook-facebook-blue-text.png" 
           texto="Linkedin" 
@@ -82,6 +79,13 @@ function App() {
           link= "https://github.com/MuriloCaun" 
           
         />
+            <ImagemButton 
+          imagem="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" 
+          texto="Instagram"
+          link= "https://www.instagram.com/murilo_k1/" 
+          
+        />
+      
         </DivButton>   
         
       </div>
