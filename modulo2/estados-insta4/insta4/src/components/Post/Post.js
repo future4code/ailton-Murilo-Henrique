@@ -126,6 +126,7 @@ this.setState({
         />
       </PostFooter>
       {componenteComentario}
+    
     </PostContainer>
   }
 }
