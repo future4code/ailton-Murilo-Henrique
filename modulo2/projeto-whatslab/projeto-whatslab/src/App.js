@@ -89,7 +89,7 @@ const UserName = styled.span`
   margin-right: 20px;
 `;
 
-export class MessageArea extends React.Component {
+export class App extends React.Component {
   state = {
     valorMensagem: "",
     valorUsuario: "",
@@ -166,4 +166,4 @@ export class MessageArea extends React.Component {
   }
 }
 
-export default MessageArea;
+export default App;
