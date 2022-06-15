@@ -23,44 +23,50 @@ const InputComentario = styled.input`
 export class SecaoComentario extends Component {
 	
 	state = {
-		
-		comentarios: [],
-		
-		texto: ""
-	  };
+		comentario: [ 
+			{
+			textoComentario: ''
+			},
+		],
+	textoComentario: ''
+	}
 
 	  adicionaComentario = () => {
 
-		const novoComentario = this.state.texto;
+		const novoComentario = this.state.textoComentario;
 	
 
-		const novosComentarios = [...this.state.comentarios, novoComentario];
+		const novosComentarios = [...this.state.comentario, novoComentario];
 	
 		
-		this.setState({ comentarios: novosComentarios });
-		this.setState({ texto: "" });
+		this.setState({ comentario: novosComentarios });
+		this.setState({ textoComentario: "" });
 	  };
 
 	  onChangeComentario = (event) => {
 		
-		this.setState({ texto: event.target.value });
-	  };
+		this.setState({
+			textoComentario: event.target.value
+		})
+		console.log(event.target.value)
+	}
+	  
 	
 
 	render() {
 
-		const listaComentarios = this.state.comentarios.map((texto) => {
-			return <p>{texto}</p>;
+		const listaComentarios = this.state.comentario.map((comentario) => {
+			return <p>{comentario.textoComentario}</p>;
 		  });
 
 		return <CommentContainer>
 			<InputComentario
 				placeholder={'Comentário'}
-				value={this.state.texto}
+				value={this.state.textoComentario}
 				onChange={this.onChangeComentario}
 			/>
 			<EdicaoBotao onClick={this.props.aoEnviar}>Enviar</EdicaoBotao>
-			<div>{listaComentarios}</div>
+			{listaComentarios}
 			
 		</CommentContainer>
 	}
