@@ -26,18 +26,20 @@ const Post = (props) => {
 
   const onClickComentario = () => {
     setComment(!comment)
+    
   };
 
   const enviarComentario = (comentario) => {
     const listaComentarios = [...allCommnents, comentario]
-    setAllComents(listaComentarios )
+    setAllComents(listaComentarios)
+    setComment("");
   }
 
-  const mostraMensagem = allCommnents.map((comentario, item)=>{
+  const mostraMensagem = allCommnents.map((comentario, item) => {
     return (
       <p key={item}>{comentario}</p>
     )
-  } )
+  })
 
   return (
     <PostContainer>
@@ -50,7 +52,7 @@ const Post = (props) => {
 
       <PostFooter>
         <IconeComContador
-          icone={curtida ? iconeCoracaoPreto : iconeCoracaoBranco}
+          icone={curtida ? (iconeCoracaoPreto) : (iconeCoracaoBranco)}
           onClickIcone={onClickCurtida}
           valorContador={contador}
         />
@@ -58,11 +60,11 @@ const Post = (props) => {
         <IconeComContador
           icone={iconeComentario}
           onClickIcone={onClickComentario}
-        valorContador={allCommnents.length}
+          valorContador={allCommnents.length}
         />
       </PostFooter>
       {comment && <SecaoComentario
-      enviarComentario={enviarComentario} />}
+        enviarComentario={enviarComentario} />}
       {mostraMensagem}
     </PostContainer>
   )
