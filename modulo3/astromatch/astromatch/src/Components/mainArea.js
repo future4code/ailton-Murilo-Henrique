@@ -96,7 +96,7 @@ const MainArea = () => {
     const [match, setMatch] = useState('')
 
     useEffect(() => {
-        axios.get(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/leonardo-sofiati/person`)
+        axios.get(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/murilo-caun/person`)
         .then((profile) => {
             setProfiles(profile.data.profile)
             setId(profile.data.profile.id)
@@ -123,7 +123,7 @@ const MainArea = () => {
             choice: true
         }
 
-        axios.post(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/leonardo-sofiati/choose-person`, body, {
+        axios.post(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/murilo-caun/choose-person`, body, {
             headers: {
                 ContentType: 'application/json'
             }
@@ -143,7 +143,7 @@ const MainArea = () => {
     }
 
     const clearMatches = () => {
-        axios.put(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/leonardo-sofiati/clear`, {
+        axios.put(`https://us-central1-missao-newton.cloudfunctions.net/astroMatch/murilo-caun/clear`, {
             headers: {
                 ContentType: 'application/json'
             }

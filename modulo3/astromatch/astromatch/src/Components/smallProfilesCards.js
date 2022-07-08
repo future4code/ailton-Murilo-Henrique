@@ -45,7 +45,7 @@ const SmallProfileCard = () => {
     const [matchProfile, setMatchProfile] = useState([])
 
     useEffect(() => {
-        axios.get('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/leonardo-sofiati/matches')
+        axios.get('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/murilo-caun/matches')
         .then((profile) => {
             setMatchProfile(profile.data.matches)
         })
