@@ -6,7 +6,7 @@ import axios from 'axios';
 const ProfileCardContainer = styled.div`
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #ff4458;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,7 @@ const ProfileCardArea = styled.div`
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
+    border: 1px solid white;
     box-shadow: 4px 2px 5px grey;
     p, h2 {
         padding-bottom: 5px;

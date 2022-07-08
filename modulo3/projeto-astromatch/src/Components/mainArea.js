@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import axios from 'axios';
 import ProfileCard from './profileCard';
 import SmallProfileCard from './smallProfilesCards';
-import Matchs from './Images/matchs.png'
-import Voltar from './Images/voltar.png'
-import Like from './Images/like.png'
-import Dislike from './Images/dislike.png'
+import Matchs from './Images/matchs.svg'
+import Voltar from './Images/voltar.svg'
+import Like from './Images/like.svg'
+import Dislike from './Images/dislike.svg'
 
 const MainAreaContainer = styled.div`
     display: flex;
@@ -17,19 +17,19 @@ const MainAreaContainer = styled.div`
     height: 100vh;
     width: 100vw;
     background-color: #d0d0d0;
-    font-family: 'Exo 2';
+    font-family: sans-serif;
     font-weight: bolder;
     button {
         margin-top: 5px;
         padding: 2px;
-        font-family: 'Exo 2';
+        font-family: sans-serif;
         font-weight: 600;
     }
 `;
 
 const MainAreaJalena = styled.div`
     display: flex;
-    background-color: white;
+    background-color: #ff4458;
     flex-direction: column;
     align-items: center;
     height: 90vh;
@@ -57,6 +57,7 @@ const ButtonArea = styled.div`
     align-items: center;
     width: 100%;
     height: 15%;
+    border-top: 1px solid white;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 `;
@@ -78,14 +79,10 @@ const ProfileHeader = styled.img`
 `;
 
 const ProfileHeaderSpan1 = styled.span`
-    color: #ff5b5b;
+    color: white;
     font-weight: 600;
 `;
 
-const ProfileHeaderSpan2 = styled.span`
-    color: #54e360;
-    font-weight: 600;
-`;
 
 const MainArea = () => {
     const [profiles, setProfiles] = useState([]);
@@ -165,7 +162,7 @@ const MainArea = () => {
                             <ProfileHeader src={Voltar} 
                             onClick={changeScreen}
                             />
-                            <h2><ProfileHeaderSpan1>astro</ProfileHeaderSpan1><ProfileHeaderSpan2>match</ProfileHeaderSpan2></h2>
+                            <h2><ProfileHeaderSpan1>astromatch</ProfileHeaderSpan1></h2>
                             <ProfileHeader src={Matchs} 
                             onClick={changeScreen}
                             />
@@ -190,7 +187,7 @@ const MainArea = () => {
                             <ProfileHeader src={Voltar} 
                             onClick={changeScreen}
                             />
-                            <h2><ProfileHeaderSpan1>astro</ProfileHeaderSpan1><ProfileHeaderSpan2>match</ProfileHeaderSpan2></h2>
+                            <h2><ProfileHeaderSpan1>astromatch</ProfileHeaderSpan1></h2>
                             <ProfileHeader src={Matchs} 
                             onClick={changeScreen}
                             />
