@@ -3,13 +3,13 @@ import React, {useState, useEffect} from "react";
 
 
 
-function AdminHomePage() {
+function TripDetailsPage() {
   return (
     <div>
-        ADMIN HOME PAGE
+       TRIP DETAILS PAGE
     </div>
     
   );
 }
 
-export default AdminHomePage;
+export default TripDetailsPage;

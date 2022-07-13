@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
-import styled from "styled-components";
-import axios from 'axios';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import styled, {createGlobalStyle} from 'styled-components';
+import RouterPage from "./router/RouterPage"
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -14,19 +14,16 @@ const ContainerApp = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 `;
 
-function App() {
+const App = () => {
   return (
-    
-    <ContainerApp>
-      <GlobalStyle>
-        ALTERAL PAGINAS
-      </GlobalStyle>
+    <ContainerApp >
+      <GlobalStyle />
+      <RouterPage />
     </ContainerApp>
-
   );
 }
 
