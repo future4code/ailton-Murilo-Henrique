@@ -26,8 +26,6 @@ const TripDetailsPage = (tripId) => {
     navigate(-1);
   };
 
-  //PRECISO DESCIBRIR COMO RENDERIZAR AUTOMATICO QUANDO APROVO OU DECLINO OS CANDIDATOS NA TELA, PROVAVELMENT É USEEFFECT MAS NÃO DESCOBRI COMO AINDA
-
   const approveCandidate = (selectedId) => {
     axios
       .put(
@@ -97,7 +95,7 @@ const TripDetailsPage = (tripId) => {
         <p>Planeta: {data?.data.trip.planet}</p>
         <p>Duração: {data?.data.trip.durationInDays} dias</p>
         <p>Data: {data?.data.trip.date}</p>
-      </TripDetailsArea>
+      
       <BackButtonTripDetails onClick={goBack}>Voltar</BackButtonTripDetails>
       <h1>Candidatos Pendentes</h1>
       {data?.data.trip.candidates.map((candidato) => {
@@ -129,6 +127,8 @@ const TripDetailsPage = (tripId) => {
           return <li key={candidato.name}>{candidato?.name}</li>;
         })}
       </ul>
+  
+      </TripDetailsArea>
     </ContainerTripDetails>
   );
 };

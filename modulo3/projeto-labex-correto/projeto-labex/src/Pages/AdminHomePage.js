@@ -68,6 +68,7 @@ const AdminHomePage = () => {
       <Header>
         <ImgHeader src={LogoHeader} />
       </Header>
+      <AdminTripsArea>
       {console.log(window.localStorage.getItem("token"))}
       <h1>Painel Administrativo</h1>
       <ButtonAreaAdmin>
@@ -75,7 +76,7 @@ const AdminHomePage = () => {
         <CreateTripButton onClick={createTrip}>Criar Viagem</CreateTripButton>
         <LogoutButton onClick={logOut}>Logout</LogoutButton>
       </ButtonAreaAdmin>
-      <AdminTripsArea>
+      
         {data &&
           data.data &&
           data.data.trips.map((data) => {

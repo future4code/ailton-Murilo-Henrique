@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 export const ContainerApp = styled.div`
- 
+   background-image: url("https://mega.ibxk.com.br//2020/07/17/17103741568418.jpg?ims=1200x480");
+   color: white;
 `;
 
 export const Header = styled.div`
@@ -31,16 +32,10 @@ export const ImgHeader = styled.img`
 export const ContainerAdminPage = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
-  flex-wrap: wrap;
-  h1 {
-    margin-bottom: 10px;
-  }
-`;
+  `
 
 export const ButtonAreaAdmin = styled.div`
   width: 100%;
@@ -247,7 +242,7 @@ export const ContainerHome = styled.div`
   height: 100vh;
 `;
 
-export const BodyHome = styled.div`
+export const HomeArea = styled.div`
   display: flex;
   width: 100%;
   height: 90%;
@@ -417,7 +412,6 @@ export const LoginButton = styled.button`
 export const ContainerTripDetails = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -427,7 +421,7 @@ export const TripDetailsArea = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   p {
     max-width: 500px;
     margin-bottom: 10px;

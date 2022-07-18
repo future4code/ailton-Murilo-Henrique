@@ -9,7 +9,7 @@ import {
   ContainerHome,
   Header,
   ImgHeader,
-  BodyHome,
+  HomeArea,
   ImgHome,
   DivHome,
   LogoHome,
@@ -32,14 +32,14 @@ const HomePage = () => {
       <Header>
         <ImgHeader src={LogoHeader} />
       </Header>
-      <BodyHome>
+      <HomeArea>
         <ImgHome src={Foguete} />
         <DivHome>
           <LogoHome src={Logo}></LogoHome>
           <ButtonHome onClick={goToTrips}>VER VIAGENS</ButtonHome>
           <ButtonHome onClick={goToLogin}>ÁREA DO ADMIN</ButtonHome>
         </DivHome>
-      </BodyHome>
+      </HomeArea>
     </ContainerHome>
   );
 };
