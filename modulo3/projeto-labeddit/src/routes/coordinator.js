@@ -1,19 +1,22 @@
-export const goToPost = (navigate, id) => {
+export const goToPostPage = (navigate, id) => {
     navigate(`/post/${id}`)
 }
 
-export const goToLogin = (navigate) => {
-    navigate("/login")
-}
+export const goToLoginPage = (navigate, logout) => {
+    navigate("/");
+    if (logout === "logout") {
+      window.localStorage.clear();
+    }
+  };
 
-export const goToFeed = (navigate) => {
-    navigate("/")
+export const goToFeedPage = (navigate) => {
+    navigate("/feed")
 }
 
 export const goBack = (navigate) => {
     navigate(-1);
   };
 
-export const goToSignUp = (navigate) => {
+export const goToSignUpPage = (navigate) => {
     navigate("/sign-up")
 }

@@ -5,7 +5,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import PostPage from "./pages/PostPage/PostPage";
 import SignInPage from "./pages/SignUpPage/SignUpPage";
 import Router from "./routes/Router";
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle`
@@ -13,15 +13,16 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #acacac;
   };
   `;
 
 const App = () => {
   return (
-    <div>
-        <GlobalStyle/>
-        <Router/>
-    </div>
+      <div>
+      <GlobalStyle />
+      <Router />
+      </div>
   );
 };
 
