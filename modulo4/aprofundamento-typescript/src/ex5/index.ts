@@ -1,0 +1,1 @@
+// 5: a- utilizando esse comando ele irá criar um arquivo do zero, mas com a maioria dos comandos comentados, ou seja, desativados.
