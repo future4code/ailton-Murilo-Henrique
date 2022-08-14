@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Murilo Caun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
 }
