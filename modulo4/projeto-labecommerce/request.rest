@@ -1,0 +1,54 @@
+POST http://localhost:3003/user
+Content-Type: application/json
+
+{
+    "name": "beltrano",
+    "email": "beltrano@gmail.com",
+    "password": "123beltrano"
+}
+
+###
+
+GET http://localhost:3003/users
+
+###
+
+
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name": "item3",
+    "price": 20000.10,
+    "image_url": "https://images.kabum.com.br/produtos/fotos/196752/teclado-mecanico-gamer-sem-fio-razer-blackwidow-v3-mini-65-chroma-wireless-bluetooth-usbc-razer-switch-green-us-preto-rz03-03891500-r3u1_1628863512_gg.jpg"
+
+}
+
+###
+
+GET http://localhost:3003/products
+
+###
+
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+    "userId":"1662350116686",
+    "productId":"1662352275615",
+    "quantity":2
+}
+
+###
+
+GET http://localhost:3003/users/1662350116686/purchases
+
+###
+GET  http://localhost:3003/products-order?order=desc
+
+###
+GET http://localhost:3003/products-search?search=2
+
+###
+
+GET http://localhost:3003/user-with-purchases
